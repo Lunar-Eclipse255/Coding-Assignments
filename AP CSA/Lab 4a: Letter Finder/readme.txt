@@ -1,0 +1,1 @@
+Gets a string from the user; then the program should print out where the vowel “a” is in the word and -1 if vowel is not in the word.
