@@ -38,5 +38,6 @@ public class Lab_7 {
     }
     //prints what your commision is
     System.out.println("Your commision is: $" + commision);
+    console.close();
     }
 }

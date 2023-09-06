@@ -25,5 +25,6 @@ public class Lab_5 {
     System.out.println("First name is " + firstName);
     System.out.println("Middle name is " + middleName);
     System.out.println("Last name is " + lastName);
+    console.close();
   }
 }
