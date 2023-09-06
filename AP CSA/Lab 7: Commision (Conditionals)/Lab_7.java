@@ -36,7 +36,7 @@ public class Lab_7 {
     else{
       commision=price*0;
     }
-    //prints what your commision is
+    //prints what the commision is
     System.out.println("Your commision is: $" + commision);
     console.close();
     }
