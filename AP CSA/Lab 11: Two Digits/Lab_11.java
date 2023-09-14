@@ -33,6 +33,7 @@ public class Lab_11 {
         else {
             System.out.println("No 13 was seen");
         }
+        scanner.close()
 
     }
 
