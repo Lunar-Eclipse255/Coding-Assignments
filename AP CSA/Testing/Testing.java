@@ -1,42 +1,14 @@
 import java.util.*;
 import java.lang.Math;
 import java.lang.reflect.Field;
-public class Testing{
+public class Testing {
     public static void main (String[] args){
-        String str1 = new String("Advanced Placement");
+        System.out.println("+----+");
+        for (int i = 1; i<=3; i++){
+            System.out.println("How many lines");
+            System.out.println("are printed?");
+        }
+        System.out.println("+----+");
 
-String str2 = new String("Advanced Placement");
-
-if (str1.equals(str2) && str1 == str2)
-
-{
-
-System.out.println("A");
-
-}
-
-else if (str1.equals(str2) && str1 != str2)
-
-{
-
-System.out.println("B");
-
-}
-
-else if (!str1.equals(str2) && str1 == str2)
-
-{
-
-System.out.println("C");
-
-}
-
-else if (!str1.equals(str2) && str1 != str2)
-
-{
-
-System.out.println("D");
-
-}
     }
 }
