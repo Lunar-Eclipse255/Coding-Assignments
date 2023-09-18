@@ -1,14 +1,15 @@
-import java.util.*;
-import java.lang.Math;
-import java.lang.reflect.Field;
-public class Testing {
-    public static void main (String[] args){
-        System.out.println("+----+");
-        for (int i = 1; i<=3; i++){
-            System.out.println("How many lines");
-            System.out.println("are printed?");
-        }
-        System.out.println("+----+");
 
+
+public class Testing {
+    public static void main(String[]args){
+        int n = 6;
+
+        for (int i = 1; i <= n; i = i + 2)  // Line 2
+
+{
+
+System.out.print(i + " ");
+
+}
     }
 }
