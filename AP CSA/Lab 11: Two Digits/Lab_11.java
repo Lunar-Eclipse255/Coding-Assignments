@@ -18,7 +18,7 @@ public class Lab_11 {
             //initializes the variable randNum to a random number from 10 to 19 inclusive
             int randNum = (int) (Math.random() * 10) + 10;
             //prints randNum
-            System.out.println("Next = " + randNum);
+            System.out.println(randNum);
             //checks if the random number was 13
             if (randNum == 13) {
                 //if so sets the boolean thirteenFound to true
@@ -27,13 +27,13 @@ public class Lab_11 {
         }
         //if there was a thirteen prints that there was a thirteen
         if (thirteenFound) {
-            System.out.println("We saw a 13!");
+            System.out.println("13 was found");
         }
         //if there was no thirten prints that there was no 13 
         else {
-            System.out.println("No 13 was seen");
+            System.out.println("13 wan't found");
         }
-        scanner.close()
+        scanner.close();
 
     }
 
