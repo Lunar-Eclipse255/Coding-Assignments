@@ -6,14 +6,14 @@ public class Marshmellow {
     private int numButtons;
     private String marshmellowName;
 
-    public void Marshmellow() {
+    public Marshmellow() {
         numEyes = 2;
         numBodyParts=2;
         numArms=2;
         numButtons=2;
         marshmellowName="Two";
     }
-    public void Marshmellow(int eyes, int bodyParts, int arms, int buttons, String name) {
+    public Marshmellow(int eyes, int bodyParts, int arms, int buttons, String name) {
         numEyes = eyes;
         numBodyParts = bodyParts;
         numArms = arms;

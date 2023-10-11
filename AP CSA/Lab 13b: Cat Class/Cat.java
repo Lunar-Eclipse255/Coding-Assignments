@@ -3,10 +3,10 @@ public class Cat {
     private String catName;
     private int catAge;
     private String catColor;
-    private int catWeight;
+    private double catWeight;
 
     //Default Constructer 
-    public void Cat(){
+    public Cat(){
         catName = "Cat";
         catAge = 2;
         catColor = "Black";
@@ -14,7 +14,7 @@ public class Cat {
     }
 
     //Constructer
-    public void cat(String name, int age, String color, int weight) {
+    public Cat(String name, int age, String color, int weight) {
         catName = name;
         catAge = age;
         catColor = color;
@@ -29,19 +29,26 @@ public class Cat {
 
     //Accessor
     public String meow(){
-        String sound = "Meow!"+ catName;
+        String sound = "Meow! " + catName;
         return sound; 
     }
 
 
     //Accessor
     public boolean isHealthy(){
-        if (catWeight >= 15) {
-            if (catAge >= 4) {
-                return false;
+        if (catWeight < 15) {
+            if (catAge < 4) {
+                return true;
             }
         }
-        return true;
+
+        return false;
+        
+    }
+
+
+    public String toString() {
+        return ("Your cat's name is "+catName+". They weigh "+catWeight+" pounds. They are "+catColor+". They are "+catAge+" years old.");
     }
 
     
