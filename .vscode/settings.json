@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "AP CSA/Exercise 1"
+        "AP CSA/"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
