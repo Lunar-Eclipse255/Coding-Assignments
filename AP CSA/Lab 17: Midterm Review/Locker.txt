@@ -1,0 +1,40 @@
+Consider the problem of designing a Locker object to model a locker similar to the one you use at school.  Each locker should contain the following:
+
+ 
+
+    Locker number (between 0001-2000)
+    To whom the locker belongs (the person’s name)
+    Locker combination (this is a six-digit number)
+    Hall that the locker is on
+    Whether the locker is open or closed
+
+ 
+
+ 
+
+ 
+
+When a locker is created, it must be assigned a number, the person’s name to whom it belongs, and the hall the locker is on.  New lockers should have random combinations generated for them and should be closed initially.
+
+ 
+
+Operations on a locker include, but are not limited to, the following:
+
+ 
+
+    Assign a new locker combination.
+    Reassign the locker to a new person.  When this is done, the combination should also be changed (there is more than one correct way to do this).
+    Open locker.  (To do this, the correct combination must be used.)
+    Close locker.  (No combination is needed for the locker to be closed.)
+    Retrieve the top/bottom status of the locker’s location. (Odd lockers are top lockers and even lockers are bottom ones.)
+    Retrieve the hall the locker is on.
+    Retrieve the combination of the locker.
+    Retrieve the open/closed status of the locker.
+    Retrieve a string containing all of the attributes of the locker.  Label the information.
+
+ 
+
+Write the class declaration for the Locker object.  In writing this class you must:
+
+    Choose appropriate instance variables and method names.
+    Provide the functionality specified above.
