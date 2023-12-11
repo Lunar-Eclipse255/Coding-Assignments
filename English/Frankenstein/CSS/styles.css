@@ -2,6 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cropped-image { 
+    height: 600px; 
+    object-fit: cover; 
+    display: block;
+    margin-left: 20px;
 }
 
 header {
@@ -24,7 +33,51 @@ nav a {
 }
 
 main {
+    margin-left:400px;
+    margin-right:400px;
+    overflow-y: auto;
+    
+}
+main p{
+    text-align: center;
+   font-size: 20px;
+   line-height: 3;
+    
+}
+
+main h2{
+    text-align: center;
+    font-size: 40px;
+     
+ }
+
+.article-square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 500px; /* Adjust the height of the squares as needed */
+    border: 1px solid #ddd;
+    cursor: pointer;
+    text-align: center;
+}
+
+.site-header a {
+    color: inherit; /* Inherit color from the parent (header) */
+    text-decoration: none; /* Remove underline */
+}
+
+.articles{
     padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 20px;
+     /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the grid on the page */
+    min-height: 100%; /* Ensure that the grid takes at least the height of the viewport */
+    overflow-y: auto; /* Add vertical scrolling if needed */
 }
 
 footer {
@@ -32,7 +85,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
+
+
