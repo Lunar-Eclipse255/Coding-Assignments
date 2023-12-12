@@ -50,7 +50,15 @@ main h2{
     font-size: 40px;
      
  }
+ main h4{
+    font-size: 22px;
+    line-height: 3;
+ }
+.sign{
 
+    
+    text-align:left;
+}
 .article-square {
     display: flex;
     flex-direction: column;
@@ -66,6 +74,11 @@ main h2{
 .site-header a {
     color: inherit; /* Inherit color from the parent (header) */
     text-decoration: none; /* Remove underline */
+}
+.article-square img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .articles{
