@@ -1,13 +1,11 @@
-public class Testing {
-        public static void main(String[]args){
-            printBackwards();
-        }
-        public static void printBackwards(){
-            int[] element  = {1,-3,4,-4,7,2};
-            //elementLength=element.length;
-            for (int i=(element.length-1); i>0;i--){
-                System.out.println("element ["+i+"] is "+element[i]);
-            }
-
-    }
+public class Testing{
+  public static void main(String[]args){
+  System.out.println(Integer.MIN_VALUE);
+  System.out.println(Integer.MAX_VALUE);
+  System.out.println("Min-1:"+(Integer.MIN_VALUE-1));
+  System.out.println("Max+1:"+(Integer.MIN_VALUE+1));
+  
 }
+}
+
+
