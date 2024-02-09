@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "AP CSA/"
+        "AP CSA",
+        "Math"
     ],
     "java.debug.settings.onBuildFailureProceed": true,
     "liveServer.settings.port": 5501
