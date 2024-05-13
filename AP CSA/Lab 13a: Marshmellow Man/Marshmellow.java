@@ -14,7 +14,7 @@ public class Marshmellow {
         marshmellowName="Two";
     }
     public Marshmellow(int eyes, int bodyParts, int arms, int buttons, String name) {
-        numEyes = eyes;
+        this.numEyes = eyes;
         numBodyParts = bodyParts;
         numArms = arms;
         numButtons = buttons;

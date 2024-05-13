@@ -1,0 +1,1 @@
+Cat cat1 = new Cat();
